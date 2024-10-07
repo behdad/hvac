@@ -1,0 +1,14 @@
+2024-10-07T08:55:41-06:00
+Running /home/behdad/hb/build/perf/benchmark-font
+Run on (24 X 3700 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x12)
+  L1 Instruction 32 KiB (x12)
+  L2 Unified 512 KiB (x12)
+  L3 Unified 32768 KiB (x2)
+Load Average: 0.71, 1.02, 1.25
+name,iterations,real_time,cpu_time,time_unit,bytes_per_second,items_per_second,label,error_occurred,error_message
+"BM_Font/draw_glyph/font=hanzi,tvs=speed,mivs=quo,vars=float.ttf/hb_mean",15,468355,466880,us,,,,,
+"BM_Font/draw_glyph/font=hanzi,tvs=speed,mivs=quo,vars=float.ttf/hb_median",15,468193,466655,us,,,,,
+"BM_Font/draw_glyph/font=hanzi,tvs=speed,mivs=quo,vars=float.ttf/hb_stddev",15,1255.6,1245.75,us,,,,,
+"BM_Font/draw_glyph/font=hanzi,tvs=speed,mivs=quo,vars=float.ttf/hb_cv",15,178.724,177.883,us,,,,,

@@ -1,0 +1,14 @@
+2024-10-07T08:54:57-06:00
+Running /home/behdad/hb/build/perf/benchmark-font
+Run on (24 X 3740.76 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x12)
+  L1 Instruction 32 KiB (x12)
+  L2 Unified 512 KiB (x12)
+  L3 Unified 32768 KiB (x2)
+Load Average: 0.28, 1.01, 1.26
+name,iterations,real_time,cpu_time,time_unit,bytes_per_second,items_per_second,label,error_occurred,error_message
+"BM_Font/draw_glyph/font=hangul,tvs=quo,mivs=quo,vars=quo.ttf/hb_mean",15,37809.2,37696.3,us,,,,,
+"BM_Font/draw_glyph/font=hangul,tvs=quo,mivs=quo,vars=quo.ttf/hb_median",15,37743.2,37639.5,us,,,,,
+"BM_Font/draw_glyph/font=hangul,tvs=quo,mivs=quo,vars=quo.ttf/hb_stddev",15,217.428,210.596,us,,,,,
+"BM_Font/draw_glyph/font=hangul,tvs=quo,mivs=quo,vars=quo.ttf/hb_cv",15,383.378,372.443,us,,,,,
