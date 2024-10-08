@@ -1,14 +1,18 @@
-2024-10-07T08:59:17-06:00
+2024-10-08T10:53:28-06:00
 Running /home/behdad/hb/build/perf/benchmark-font
-Run on (24 X 3564.9 MHz CPU s)
+Run on (24 X 3700 MHz CPU s)
 CPU Caches:
   L1 Data 32 KiB (x12)
   L1 Instruction 32 KiB (x12)
   L2 Unified 512 KiB (x12)
   L3 Unified 32768 KiB (x2)
-Load Average: 0.22, 0.63, 1.04
+Load Average: 0.19, 0.28, 0.53
 name,iterations,real_time,cpu_time,time_unit,bytes_per_second,items_per_second,label,error_occurred,error_message
-"BM_Font/draw_glyph/flat-hanzi.ttf/hb_mean",15,43956.7,43823.4,us,,,,,
-"BM_Font/draw_glyph/flat-hanzi.ttf/hb_median",15,44098.2,43952.7,us,,,,,
-"BM_Font/draw_glyph/flat-hanzi.ttf/hb_stddev",15,258.145,251.664,us,,,,,
-"BM_Font/draw_glyph/flat-hanzi.ttf/hb_cv",15,391.514,382.845,us,,,,,
+"BM_Font/draw_glyph/flat-hanzi.ttf/hb_mean",15,42326.6,42200,us,,,,,
+"BM_Font/draw_glyph/flat-hanzi.ttf/hb_median",15,42336.2,42218.8,us,,,,,
+"BM_Font/draw_glyph/flat-hanzi.ttf/hb_stddev",15,173.646,170.216,us,,,,,
+"BM_Font/draw_glyph/flat-hanzi.ttf/hb_cv",15,273.502,268.904,us,,,,,
+"BM_Font/draw_glyph/flat-hanzi.ttf/var/hb_mean",15,57917.7,57712.7,us,,,,,
+"BM_Font/draw_glyph/flat-hanzi.ttf/var/hb_median",15,58015.3,57836.8,us,,,,,
+"BM_Font/draw_glyph/flat-hanzi.ttf/var/hb_stddev",15,502.96,471.753,us,,,,,
+"BM_Font/draw_glyph/flat-hanzi.ttf/var/hb_cv",15,578.937,544.944,us,,,,,

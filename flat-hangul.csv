@@ -1,14 +1,18 @@
-2024-10-07T08:58:49-06:00
+2024-10-08T10:53:24-06:00
 Running /home/behdad/hb/build/perf/benchmark-font
-Run on (24 X 3592.05 MHz CPU s)
+Run on (24 X 3542.89 MHz CPU s)
 CPU Caches:
   L1 Data 32 KiB (x12)
   L1 Instruction 32 KiB (x12)
   L2 Unified 512 KiB (x12)
   L3 Unified 32768 KiB (x2)
-Load Average: 0.16, 0.66, 1.07
+Load Average: 0.19, 0.28, 0.53
 name,iterations,real_time,cpu_time,time_unit,bytes_per_second,items_per_second,label,error_occurred,error_message
-"BM_Font/draw_glyph/flat-hangul.ttf/hb_mean",15,5798.36,5778.74,us,,,,,
-"BM_Font/draw_glyph/flat-hangul.ttf/hb_median",15,5825.92,5808.21,us,,,,,
-"BM_Font/draw_glyph/flat-hangul.ttf/hb_stddev",15,46.1912,46.8688,us,,,,,
-"BM_Font/draw_glyph/flat-hangul.ttf/hb_cv",15,531.084,540.704,us,,,,,
+"BM_Font/draw_glyph/flat-hangul.ttf/hb_mean",15,5542.47,5525.67,us,,,,,
+"BM_Font/draw_glyph/flat-hangul.ttf/hb_median",15,5526.58,5510.02,us,,,,,
+"BM_Font/draw_glyph/flat-hangul.ttf/hb_stddev",15,100.506,98.8345,us,,,,,
+"BM_Font/draw_glyph/flat-hangul.ttf/hb_cv",15,1208.92,1192.43,us,,,,,
+"BM_Font/draw_glyph/flat-hangul.ttf/var/hb_mean",15,8304.22,8277.94,us,,,,,
+"BM_Font/draw_glyph/flat-hangul.ttf/var/hb_median",15,8319.85,8290.57,us,,,,,
+"BM_Font/draw_glyph/flat-hangul.ttf/var/hb_stddev",15,35.6811,37.3156,us,,,,,
+"BM_Font/draw_glyph/flat-hangul.ttf/var/hb_cv",15,286.45,300.522,us,,,,,

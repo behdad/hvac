@@ -1,5 +1,21 @@
 #!/bin/bash
 
+BENCH(){
+	~/hb/build/perf/benchmark-font \
+	"$@" \
+	--benchmark_filter="draw_.*ttf.*/hb" \
+	--benchmark_out_format=csv \
+	--benchmark_repetitions=15 \
+	--benchmark_report_aggregates_only=true \
+	--benchmark_min_time=0.1 \
+	--benchmark_max_time=10
+}
+
+echo Benchmarking flat-hangul.ttf
+BENCH "flat-hangul.ttf" --benchmark_out="flat-hangul.csv"
+echo Benchmarking flat-hanzi.ttf
+BENCH  "flat-hanzi.ttf" --benchmark_out="flat-hanzi.csv"
+
 for FONT in hangul hanzi; do # Font
   for MIVS in quo float; do # MultiItemVariationStore storage
     for TVS in quo speed; do # TupleVariationStore storage
@@ -17,15 +33,7 @@ for FONT in hangul hanzi; do # Font
 
 	# Benchmark the font
 	echo Benchmarking $ttf
-	~/hb/build/perf/benchmark-font \
-		--benchmark_filter=draw_.*ttf/hb \
-		--benchmark_out="$csv" \
-		--benchmark_out_format=csv \
-		--benchmark_repetitions=15 \
-		--benchmark_report_aggregates_only=true \
-		--benchmark_min_time=0.1 \
-		--benchmark_max_time=10 \
-		"$ttf"
+	BENCH "$ttf" --benchmark_out="$csv"
       done
     done
   done

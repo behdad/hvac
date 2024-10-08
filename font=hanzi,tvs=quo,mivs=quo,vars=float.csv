@@ -1,14 +1,18 @@
-2024-10-07T08:55:24-06:00
+2024-10-08T10:54:27-06:00
 Running /home/behdad/hb/build/perf/benchmark-font
-Run on (24 X 3700 MHz CPU s)
+Run on (24 X 3587.02 MHz CPU s)
 CPU Caches:
   L1 Data 32 KiB (x12)
   L1 Instruction 32 KiB (x12)
   L2 Unified 512 KiB (x12)
   L3 Unified 32768 KiB (x2)
-Load Average: 0.60, 1.02, 1.26
+Load Average: 0.77, 0.43, 0.57
 name,iterations,real_time,cpu_time,time_unit,bytes_per_second,items_per_second,label,error_occurred,error_message
-"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=quo,vars=float.ttf/hb_mean",15,532120,530511,us,,,,,
-"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=quo,vars=float.ttf/hb_median",15,532020,530278,us,,,,,
-"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=quo,vars=float.ttf/hb_stddev",15,1787.49,1692.97,us,,,,,
-"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=quo,vars=float.ttf/hb_cv",15,223.945,212.747,us,,,,,
+"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=quo,vars=float.ttf/hb_mean",15,523713,522208,us,,,,,
+"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=quo,vars=float.ttf/hb_median",15,523807,522313,us,,,,,
+"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=quo,vars=float.ttf/hb_stddev",15,2375.92,2340.32,us,,,,,
+"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=quo,vars=float.ttf/hb_cv",15,302.446,298.772,us,,,,,
+"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=quo,vars=float.ttf/var/hb_mean",15,550076,548444,us,,,,,
+"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=quo,vars=float.ttf/var/hb_median",15,549964,548450,us,,,,,
+"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=quo,vars=float.ttf/var/hb_stddev",15,2054.82,2009.7,us,,,,,
+"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=quo,vars=float.ttf/var/hb_cv",15,249.034,244.291,us,,,,,

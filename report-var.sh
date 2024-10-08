@@ -1,8 +1,8 @@
 #!/bin/bash
 
 grep median *.csv |
-grep 'ttf/hb' |
-sed 's@.*BM_Font/draw_glyph/@@; s@/hb_median",15,[0-9.]*,@ @; s/,us.*//; s/[.][0-9]*$//' |
+grep ttf/var/hb |
+sed 's@.*BM_Font/draw_glyph/@@; s@/var/hb_median",15,[0-9.]*,@ @; s/,us.*//; s/[.][0-9]*$//' |
 while read font time; do
   stem=$(basename $font .ttf)
   ttf_size=$(stat -c %s $font)
