@@ -1,4 +1,4 @@
-2024-10-08T10:53:58-06:00
+2024-10-09T13:16:00-06:00
 Running /home/behdad/hb/build/perf/benchmark-font
 Run on (24 X 3700 MHz CPU s)
 CPU Caches:
@@ -6,13 +6,13 @@ CPU Caches:
   L1 Instruction 32 KiB (x12)
   L2 Unified 512 KiB (x12)
   L3 Unified 32768 KiB (x2)
-Load Average: 0.51, 0.35, 0.55
+Load Average: 0.69, 0.33, 0.47
 name,iterations,real_time,cpu_time,time_unit,bytes_per_second,items_per_second,label,error_occurred,error_message
-"BM_Font/draw_glyph/font=hangul,tvs=speed,mivs=float,vars=quo.ttf/hb_mean",15,34754.1,34658.3,us,,,,,
-"BM_Font/draw_glyph/font=hangul,tvs=speed,mivs=float,vars=quo.ttf/hb_median",15,34769.5,34636,us,,,,,
-"BM_Font/draw_glyph/font=hangul,tvs=speed,mivs=float,vars=quo.ttf/hb_stddev",15,179.071,169.968,us,,,,,
-"BM_Font/draw_glyph/font=hangul,tvs=speed,mivs=float,vars=quo.ttf/hb_cv",15,343.501,326.939,us,,,,,
-"BM_Font/draw_glyph/font=hangul,tvs=speed,mivs=float,vars=quo.ttf/var/hb_mean",15,47447.8,47321.3,us,,,,,
-"BM_Font/draw_glyph/font=hangul,tvs=speed,mivs=float,vars=quo.ttf/var/hb_median",15,47402.9,47231.9,us,,,,,
-"BM_Font/draw_glyph/font=hangul,tvs=speed,mivs=float,vars=quo.ttf/var/hb_stddev",15,223.059,221.549,us,,,,,
-"BM_Font/draw_glyph/font=hangul,tvs=speed,mivs=float,vars=quo.ttf/var/hb_cv",15,313.41,312.12,us,,,,,
+"BM_Font/draw_glyph/font=hangul,tvs=speed,mivs=float,vars=quo.ttf/hb_mean",15,35063.9,34960.4,us,,,,,
+"BM_Font/draw_glyph/font=hangul,tvs=speed,mivs=float,vars=quo.ttf/hb_median",15,35062.1,34976,us,,,,,
+"BM_Font/draw_glyph/font=hangul,tvs=speed,mivs=float,vars=quo.ttf/hb_stddev",15,168.181,166.628,us,,,,,
+"BM_Font/draw_glyph/font=hangul,tvs=speed,mivs=float,vars=quo.ttf/hb_cv",15,319.761,317.746,us,,,,,
+"BM_Font/draw_glyph/font=hangul,tvs=speed,mivs=float,vars=quo.ttf/var/hb_mean",15,48076.5,47944.1,us,,,,,
+"BM_Font/draw_glyph/font=hangul,tvs=speed,mivs=float,vars=quo.ttf/var/hb_median",15,48025.3,47903.2,us,,,,,
+"BM_Font/draw_glyph/font=hangul,tvs=speed,mivs=float,vars=quo.ttf/var/hb_stddev",15,175.318,163.162,us,,,,,
+"BM_Font/draw_glyph/font=hangul,tvs=speed,mivs=float,vars=quo.ttf/var/hb_cv",15,243.11,226.879,us,,,,,

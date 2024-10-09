@@ -1,18 +1,18 @@
-2024-10-08T10:55:42-06:00
+2024-10-09T13:17:41-06:00
 Running /home/behdad/hb/build/perf/benchmark-font
-Run on (24 X 3700 MHz CPU s)
+Run on (24 X 3192.67 MHz CPU s)
 CPU Caches:
   L1 Data 32 KiB (x12)
   L1 Instruction 32 KiB (x12)
   L2 Unified 512 KiB (x12)
   L3 Unified 32768 KiB (x2)
-Load Average: 0.94, 0.56, 0.60
+Load Average: 0.98, 0.54, 0.53
 name,iterations,real_time,cpu_time,time_unit,bytes_per_second,items_per_second,label,error_occurred,error_message
-"BM_Font/draw_glyph/font=hanzi,tvs=speed,mivs=float,vars=quo.ttf/hb_mean",15,499357,497762,us,,,,,
-"BM_Font/draw_glyph/font=hanzi,tvs=speed,mivs=float,vars=quo.ttf/hb_median",15,501436,499897,us,,,,,
-"BM_Font/draw_glyph/font=hanzi,tvs=speed,mivs=float,vars=quo.ttf/hb_stddev",15,5140.56,5097.2,us,,,,,
-"BM_Font/draw_glyph/font=hanzi,tvs=speed,mivs=float,vars=quo.ttf/hb_cv",15,686.29,682.682,us,,,,,
-"BM_Font/draw_glyph/font=hanzi,tvs=speed,mivs=float,vars=quo.ttf/var/hb_mean",15,506494,504640,us,,,,,
-"BM_Font/draw_glyph/font=hanzi,tvs=speed,mivs=float,vars=quo.ttf/var/hb_median",15,508116,506470,us,,,,,
-"BM_Font/draw_glyph/font=hanzi,tvs=speed,mivs=float,vars=quo.ttf/var/hb_stddev",15,5024.36,5225.74,us,,,,,
-"BM_Font/draw_glyph/font=hanzi,tvs=speed,mivs=float,vars=quo.ttf/var/hb_cv",15,661.326,690.359,us,,,,,
+"BM_Font/draw_glyph/font=hanzi,tvs=speed,mivs=float,vars=quo.ttf/hb_mean",15,492782,491269,us,,,,,
+"BM_Font/draw_glyph/font=hanzi,tvs=speed,mivs=float,vars=quo.ttf/hb_median",15,492013,490549,us,,,,,
+"BM_Font/draw_glyph/font=hanzi,tvs=speed,mivs=float,vars=quo.ttf/hb_stddev",15,1967.85,1940.56,us,,,,,
+"BM_Font/draw_glyph/font=hanzi,tvs=speed,mivs=float,vars=quo.ttf/hb_cv",15,266.223,263.34,us,,,,,
+"BM_Font/draw_glyph/font=hanzi,tvs=speed,mivs=float,vars=quo.ttf/var/hb_mean",15,498142,496590,us,,,,,
+"BM_Font/draw_glyph/font=hanzi,tvs=speed,mivs=float,vars=quo.ttf/var/hb_median",15,498211,496598,us,,,,,
+"BM_Font/draw_glyph/font=hanzi,tvs=speed,mivs=float,vars=quo.ttf/var/hb_stddev",15,1876.85,1839.01,us,,,,,
+"BM_Font/draw_glyph/font=hanzi,tvs=speed,mivs=float,vars=quo.ttf/var/hb_cv",15,251.18,246.886,us,,,,,

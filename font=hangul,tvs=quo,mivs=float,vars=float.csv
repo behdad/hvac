@@ -1,18 +1,18 @@
-2024-10-08T10:53:54-06:00
+2024-10-09T13:15:56-06:00
 Running /home/behdad/hb/build/perf/benchmark-font
-Run on (24 X 3700 MHz CPU s)
+Run on (24 X 3586.97 MHz CPU s)
 CPU Caches:
   L1 Data 32 KiB (x12)
   L1 Instruction 32 KiB (x12)
   L2 Unified 512 KiB (x12)
   L3 Unified 32768 KiB (x2)
-Load Average: 0.51, 0.35, 0.55
+Load Average: 0.66, 0.32, 0.46
 name,iterations,real_time,cpu_time,time_unit,bytes_per_second,items_per_second,label,error_occurred,error_message
-"BM_Font/draw_glyph/font=hangul,tvs=quo,mivs=float,vars=float.ttf/hb_mean",15,24777.7,24714.3,us,,,,,
-"BM_Font/draw_glyph/font=hangul,tvs=quo,mivs=float,vars=float.ttf/hb_median",15,24712.2,24649.8,us,,,,,
-"BM_Font/draw_glyph/font=hangul,tvs=quo,mivs=float,vars=float.ttf/hb_stddev",15,207.649,208.499,us,,,,,
-"BM_Font/draw_glyph/font=hangul,tvs=quo,mivs=float,vars=float.ttf/hb_cv",15,558.699,562.426,us,,,,,
-"BM_Font/draw_glyph/font=hangul,tvs=quo,mivs=float,vars=float.ttf/var/hb_mean",15,32424,32314.8,us,,,,,
-"BM_Font/draw_glyph/font=hangul,tvs=quo,mivs=float,vars=float.ttf/var/hb_median",15,32260.3,32176.2,us,,,,,
-"BM_Font/draw_glyph/font=hangul,tvs=quo,mivs=float,vars=float.ttf/var/hb_stddev",15,745.662,719.421,us,,,,,
-"BM_Font/draw_glyph/font=hangul,tvs=quo,mivs=float,vars=float.ttf/var/hb_cv",15,1533.15,1484.19,us,,,,,
+"BM_Font/draw_glyph/font=hangul,tvs=quo,mivs=float,vars=float.ttf/hb_mean",15,26296.1,26212.8,us,,,,,
+"BM_Font/draw_glyph/font=hangul,tvs=quo,mivs=float,vars=float.ttf/hb_median",15,26272.1,26205.7,us,,,,,
+"BM_Font/draw_glyph/font=hangul,tvs=quo,mivs=float,vars=float.ttf/hb_stddev",15,200.871,202.013,us,,,,,
+"BM_Font/draw_glyph/font=hangul,tvs=quo,mivs=float,vars=float.ttf/hb_cv",15,509.254,513.777,us,,,,,
+"BM_Font/draw_glyph/font=hangul,tvs=quo,mivs=float,vars=float.ttf/var/hb_mean",15,33443.8,33340.4,us,,,,,
+"BM_Font/draw_glyph/font=hangul,tvs=quo,mivs=float,vars=float.ttf/var/hb_median",15,33530.2,33430.3,us,,,,,
+"BM_Font/draw_glyph/font=hangul,tvs=quo,mivs=float,vars=float.ttf/var/hb_stddev",15,265.481,261.555,us,,,,,
+"BM_Font/draw_glyph/font=hangul,tvs=quo,mivs=float,vars=float.ttf/var/hb_cv",15,529.207,522.999,us,,,,,

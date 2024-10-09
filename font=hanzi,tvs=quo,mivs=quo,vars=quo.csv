@@ -1,4 +1,4 @@
-2024-10-08T10:54:06-06:00
+2024-10-09T13:16:08-06:00
 Running /home/behdad/hb/build/perf/benchmark-font
 Run on (24 X 3700 MHz CPU s)
 CPU Caches:
@@ -6,13 +6,13 @@ CPU Caches:
   L1 Instruction 32 KiB (x12)
   L2 Unified 512 KiB (x12)
   L3 Unified 32768 KiB (x2)
-Load Average: 0.59, 0.37, 0.55
+Load Average: 0.74, 0.35, 0.47
 name,iterations,real_time,cpu_time,time_unit,bytes_per_second,items_per_second,label,error_occurred,error_message
-"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=quo,vars=quo.ttf/hb_mean",15,667861,665720,us,,,,,
-"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=quo,vars=quo.ttf/hb_median",15,666366,664062,us,,,,,
-"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=quo,vars=quo.ttf/hb_stddev",15,9738.31,9519.43,us,,,,,
-"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=quo,vars=quo.ttf/hb_cv",15,972.089,953.296,us,,,,,
-"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=quo,vars=quo.ttf/var/hb_mean",15,704275,702192,us,,,,,
-"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=quo,vars=quo.ttf/var/hb_median",15,704242,702134,us,,,,,
-"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=quo,vars=quo.ttf/var/hb_stddev",15,1746.54,1721.6,us,,,,,
-"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=quo,vars=quo.ttf/var/hb_cv",15,165.328,163.45,us,,,,,
+"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=quo,vars=quo.ttf/hb_mean",15,635304,633541,us,,,,,
+"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=quo,vars=quo.ttf/hb_median",15,633700,631839,us,,,,,
+"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=quo,vars=quo.ttf/hb_stddev",15,4784.04,4754.82,us,,,,,
+"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=quo,vars=quo.ttf/hb_cv",15,502.021,500.343,us,,,,,
+"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=quo,vars=quo.ttf/var/hb_mean",15,657227,655454,us,,,,,
+"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=quo,vars=quo.ttf/var/hb_median",15,657336,655498,us,,,,,
+"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=quo,vars=quo.ttf/var/hb_stddev",15,1720.23,1682.11,us,,,,,
+"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=quo,vars=quo.ttf/var/hb_cv",15,174.494,171.088,us,,,,,

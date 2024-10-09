@@ -1,4 +1,4 @@
-2024-10-08T10:55:30-06:00
+2024-10-09T13:17:29-06:00
 Running /home/behdad/hb/build/perf/benchmark-font
 Run on (24 X 3700 MHz CPU s)
 CPU Caches:
@@ -6,13 +6,13 @@ CPU Caches:
   L1 Instruction 32 KiB (x12)
   L2 Unified 512 KiB (x12)
   L3 Unified 32768 KiB (x2)
-Load Average: 0.93, 0.55, 0.60
+Load Average: 0.98, 0.52, 0.52
 name,iterations,real_time,cpu_time,time_unit,bytes_per_second,items_per_second,label,error_occurred,error_message
-"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=float,vars=float.ttf/hb_mean",15,379519,378228,us,,,,,
-"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=float,vars=float.ttf/hb_median",15,380206,378762,us,,,,,
-"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=float,vars=float.ttf/hb_stddev",15,2884.03,2832.99,us,,,,,
-"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=float,vars=float.ttf/hb_cv",15,506.611,499.345,us,,,,,
-"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=float,vars=float.ttf/var/hb_mean",15,394302,392981,us,,,,,
-"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=float,vars=float.ttf/var/hb_median",15,393678,392205,us,,,,,
-"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=float,vars=float.ttf/var/hb_stddev",15,2956.45,2923.45,us,,,,,
-"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=float,vars=float.ttf/var/hb_cv",15,499.862,495.945,us,,,,,
+"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=float,vars=float.ttf/hb_mean",15,375624,374383,us,,,,,
+"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=float,vars=float.ttf/hb_median",15,375166,374012,us,,,,,
+"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=float,vars=float.ttf/hb_stddev",15,6045.87,5921.23,us,,,,,
+"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=float,vars=float.ttf/hb_cv",15,1073.04,1054.4,us,,,,,
+"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=float,vars=float.ttf/var/hb_mean",15,387711,386434,us,,,,,
+"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=float,vars=float.ttf/var/hb_median",15,387514,386307,us,,,,,
+"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=float,vars=float.ttf/var/hb_stddev",15,1406.96,1417.9,us,,,,,
+"BM_Font/draw_glyph/font=hanzi,tvs=quo,mivs=float,vars=float.ttf/var/hb_cv",15,241.925,244.613,us,,,,,
